@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jlove89/tspractice/issues"
   },
-  "homepage": "https://github.com/jlove89/tspractice#readme"
+  "homepage": "https://github.com/jlove89/tspractice#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
 }
